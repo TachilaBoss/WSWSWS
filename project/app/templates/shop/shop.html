@@ -1,0 +1,25 @@
+{% extends 'shop/base.html' %}
+<!DOCTYPE html>
+{% load static %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% block 'content' %}
+
+<div class="display">
+    {% for i in products %}
+    <div class="ad">
+        <img class="img" src="{{ i.photo }}">
+        <p>{{ i.name }}</p>
+        <p>{{ i.price }}$</p>
+        <a href="{% url 'product' i.id %}">|Подробнее о товаре|</a>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}
+</body>
+</html>

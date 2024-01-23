@@ -1,0 +1,22 @@
+{% extends 'shop/base.html' %}
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>product</title>
+</head>
+<body>
+{% block 'content' %}
+<div class="footer">
+    <form action="" method="post">
+        {% csrf_token %}
+        <div class="mb"><h4 >Название товара</h4>{{ form.name }}</div>
+        <div class="mb"><h4>Описание товара</h4>{{ form.description }}</div>
+        <div class="mb"><h4>Цена товара</h4>{{ form.price }}</div><br>
+        <button class="mr">Создать товар</button>
+    </form>
+    </div>
+{% endblock %}
+</body>
+</html>

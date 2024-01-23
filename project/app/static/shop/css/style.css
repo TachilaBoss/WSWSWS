@@ -1,0 +1,182 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+*{
+    margin: 0px;
+    text-decoration: none;
+    color: black;
+    top: 40px
+
+}
+
+.shapka{
+    margin-top: 20px;
+    margin-left: 60px;
+}
+.r_nad_shapka{
+    margin-left: 310px;
+}
+
+.black{
+    color: black;
+}
+.nad_shapka{
+    display: flex;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    color: #707f8d;
+}
+
+.shift{
+    margin-left: 25px;
+}
+.wh{
+    width: 160px;
+    height: 40px;
+}
+
+a.button7 {
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  padding: .8em 1em calc(.8em + 3px);
+  border-radius: 8px;
+  background: black;
+  box-shadow: 0 -3px black inset;
+  transition: 0.2s;
+}
+
+.shift_big{
+    margin-left: 80px;
+}
+
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid black;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: black;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid black;
+  background: black;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+margin-left: 200px;
+  width: 60%;
+  height: 7%;
+  position: absolute;
+  left: 48%;
+  margin-bottom: 10px;
+  transform: translate(-50%, -50%);
+}
+
+.cart{
+    margin-left: 50px;
+    display: flex;
+}
+
+.shift1{
+    margin-left: 10px;
+}
+
+.shift2{
+    margin-left: 15px;
+}
+
+.img{
+    margin-top: 50px;
+}
+
+.display{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.ad {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.img2{
+    margin-top: 50px;
+    width: 600px;
+    height: 400px;
+}
+
+.flex{
+    display: flex;
+}
+
+.info {
+    position: absolute;
+    left: 1000px;
+    padding-top: 40px;
+}
+
+.info__static{
+    margin-top: 200px;
+    margin-left: 100px;
+}
+
+.p{
+    font-size: 23px;
+}
+
+.comment{
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+.footer{
+    margin-top: 200px;
+    margin-left: 800px;
+    background-color: #911d1d;
+    width: 350px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 105px;
+}
+
+.mb{
+    margin-bottom: 40px;
+}
+
+.mr{
+    margin-left:30px;
+}
+
+.perenos {
+    width:1250px;
+    word-break:break-all;
+}

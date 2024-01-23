@@ -1,0 +1,22 @@
+{% extends 'shop/base.html' %}
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% block 'content' %}
+<div class="flex">
+<img class="img2" src="{{ product.photo }}">
+    <div class="info__static">
+    <h2>Наименование товара:</h2><p class="p">{{ product.name }}</p>
+<h2>Описание товара:</h2> <p class="p perenos">{{ product.description }}</p>
+        <h2>Цена товара:</h2><p class="p">{{ product.price }}$</p>
+        </div>
+    <div class="podtext">
+</div>
+{% endblock %}
+</body>
+</html>
